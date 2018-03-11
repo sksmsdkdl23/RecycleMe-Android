@@ -131,6 +131,8 @@ public class CameraConnectionFragment extends Fragment {
    */
   private AutoFitTextureView textureView;
 
+  private RecognitionScoreView scoreView;
+
   /**
    * A {@link CameraCaptureSession } for camera preview.
    */
@@ -327,6 +329,16 @@ public class CameraConnectionFragment extends Fragment {
   @Override
   public void onViewCreated(final View view, final Bundle savedInstanceState) {
     textureView = (AutoFitTextureView) view.findViewById(R.id.texture);
+    scoreView = (RecognitionScoreView) view.findViewById(R.id.results);
+
+    scoreView.setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View view) {
+        // TODO: database
+        //System.out.println("asdhjkasdhjkashdjkashdjkahsjkdhasjkhdajkshd");
+      }
+    });
+
   }
 
   @Override
@@ -644,4 +656,5 @@ public class CameraConnectionFragment extends Fragment {
           .create();
     }
   }
+
 }

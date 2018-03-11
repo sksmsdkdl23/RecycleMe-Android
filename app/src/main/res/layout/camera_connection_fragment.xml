@@ -25,15 +25,12 @@
 
     <com.hackuvic.twoblocksaway.recycleme.RecognitionScoreView
         android:id="@+id/results"
+        android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_width="match_parent"
-        android:background="@drawable/round"
-        android:layout_marginBottom="30dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginLeft="65dp"
-        android:layout_marginRight="65dp"
-
-        android:layout_alignParentTop="false" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/icon_capture"/>
 
     <com.hackuvic.twoblocksaway.recycleme.OverlayView
         android:id="@+id/debug_overlay"
