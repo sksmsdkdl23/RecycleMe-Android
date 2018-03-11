@@ -1,7 +1,11 @@
 package com.hackuvic.twoblocksaway.recycleme;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+
+import com.hackuvic.twoblocksaway.recycleme.Map.MapActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -9,5 +13,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+
+    public void onMap(View view) {
+        Intent navNext = new Intent(this, MapActivity.class);
+        startActivity(navNext);
+
     }
 }
