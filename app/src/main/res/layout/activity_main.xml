@@ -36,7 +36,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:src="@drawable/recycleMeLogo"
+        android:src="@drawable/recycle_me_logo"
         app:layout_constraintBottom_toTopOf="@+id/txt_recycleMe"
         app:layout_constraintEnd_toEndOf="@+id/blackBG"
         app:layout_constraintHorizontal_bias="0.484"

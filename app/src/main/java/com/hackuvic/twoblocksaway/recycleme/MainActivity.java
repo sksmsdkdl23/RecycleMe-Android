@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button cameraBtn = findViewById(R.id.button);
+        Button cameraBtn = findViewById(R.id.btn_camera);
 
         cameraBtn.setOnClickListener(new View.OnClickListener() {
             @Override
