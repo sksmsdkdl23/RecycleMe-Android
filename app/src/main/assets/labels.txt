@@ -1,0 +1,8 @@
+alcohol
+bag_in_box
+bottle
+can
+gable_top
+glass
+juice_box
+pouches
