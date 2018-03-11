@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hackuvic.twoblocksaway.recycleme.Total.TotalActivity">
+
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="900dp"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:background="@drawable/background"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/blackBG"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:background="@android:color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/blackBG2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="43dp"
+        android:alpha="0.8"
+        android:background="@android:color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/txtTitleTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/blackBG2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="@string/totalTitle"
+        android:fontFamily="@font/raleway_thin"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/txtApprox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitleTotal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:fontFamily="@font/raleway_thin"
+        android:textStyle="bold"
+        android:text="@string/approxRefund"
+        android:textColor="@android:color/white"
+        android:textSize="19dp"/>
+
+    <TextView
+        android:id="@+id/txtNumItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtApprox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="131dp"
+        android:text="@string/numOfItems"
+        android:textColor="@android:color/white"
+        android:textSize="19dp"/>
+
+    <TextView
+        android:id="@+id/txtTotalRefund"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtApprox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:textColor="@android:color/white"
+        android:text="$"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/txtTotalItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtTotalRefund"
+        android:layout_below="@+id/txtNumItems"
+        android:layout_marginTop="37dp"
+        android:text="#"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtTitleTotal"
+        android:layout_below="@+id/txtTotalItems"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="46dp"
+        android:text="@string/types"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btnMap"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/icon_location" />
+
+    <Button
+        android:id="@+id/btnInfo"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_alignTop="@+id/btnMap"
+        android:layout_toStartOf="@+id/btnMap"
+        android:background="@drawable/icon_details" />
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_alignTop="@+id/btnInfo"
+        android:layout_toStartOf="@+id/btnInfo"
+        android:background="@drawable/icon_camera"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/txtList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtType"
+        android:layout_below="@+id/txtType"
+        android:layout_marginTop="17dp"
+        android:text="...."
+        android:textColor="@android:color/white"/>
+
+
+</RelativeLayout>

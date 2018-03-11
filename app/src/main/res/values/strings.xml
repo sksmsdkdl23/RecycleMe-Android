@@ -3,4 +3,8 @@
     <string name="title_activity_map">Map</string>
     <string name="recycleMe">Recycle Me</string>
     <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="totalTitle">Total Recycling Refund</string>
+    <string name="approxRefund"><u>Approximate Total Refund</u></string>
+    <string name="numOfItems"><u>Number of Refundable Items</u></string>
+    <string name="types">Types</string>
 </resources>
