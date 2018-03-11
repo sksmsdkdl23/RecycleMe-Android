@@ -8,12 +8,15 @@ All notable changes to this project will be documented in this file.
   - Philip Choi (PC)
   - Ryan Cha (RC)
 
+## [0.3.0]
+### Added
+  - Added icons
+  - Added logo icon and locations btn to main activity
   
 ## [0.2.0]
 ### Added
   - Added Microsoft Vision API
   - Show Camera view
-  
 
 ## [0.1.2]
 ### Added
