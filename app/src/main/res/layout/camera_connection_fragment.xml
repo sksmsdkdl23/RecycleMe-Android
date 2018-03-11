@@ -17,13 +17,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <demo.tensorflow.org.customvision_sample.AutoFitTextureView
+    <com.hackuvic.twoblocksaway.recycleme.AutoFitTextureView
         android:id="@+id/texture"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true" />
 
-    <demo.tensorflow.org.customvision_sample.RecognitionScoreView
+    <com.hackuvic.twoblocksaway.recycleme.RecognitionScoreView
         android:id="@+id/results"
         android:layout_height="50dp"
         android:layout_width="match_parent"
@@ -35,7 +35,7 @@
 
         android:layout_alignParentTop="false" />
 
-    <demo.tensorflow.org.customvision_sample.OverlayView
+    <com.hackuvic.twoblocksaway.recycleme.OverlayView
         android:id="@+id/debug_overlay"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

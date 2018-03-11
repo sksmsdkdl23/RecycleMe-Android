@@ -17,7 +17,6 @@
 package com.hackuvic.twoblocksaway.recycleme;
 
 import android.Manifest;
-import android.app.Activity;
 import android.app.Fragment;
 import android.content.Context;
 import android.content.pm.PackageManager;
@@ -36,6 +35,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.Trace;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Size;
 import android.view.KeyEvent;
 import android.view.WindowManager;
@@ -46,7 +46,7 @@ import com.hackuvic.twoblocksaway.recycleme.env.Logger;
 
 import java.nio.ByteBuffer;
 
-public abstract class CameraActivity extends Activity implements OnImageAvailableListener, Camera.
+public abstract class CameraActivity extends AppCompatActivity implements OnImageAvailableListener, Camera.
         PreviewCallback {
   private static final Logger LOGGER = new Logger();
 
