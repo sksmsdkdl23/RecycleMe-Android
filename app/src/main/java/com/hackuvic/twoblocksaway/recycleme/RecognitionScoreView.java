@@ -19,15 +19,18 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.support.annotation.Nullable;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
+import android.widget.Toast;
 
 import com.hackuvic.twoblocksaway.recycleme.Classifier.Recognition;
 
 import java.util.List;
 
-public class RecognitionScoreView extends View implements ResultsView {
+public class RecognitionScoreView extends View implements ResultsView, View.OnClickListener {
     private static final float TEXT_SIZE_DIP = 24;
     private List<Recognition> results;
     private final float textSizePx;
@@ -60,5 +63,11 @@ public class RecognitionScoreView extends View implements ResultsView {
             final int x = (int)(canvas.getWidth() - fgPaint.measureText(recog.getTitle())) / 2;
             canvas.drawText(recog.getTitle(), x, y, fgPaint);
         }
+    }
+
+    @Override
+    public void onClick(View view) {
+        System.out.println("Hi Jason");
+        Log.d("Hi Jason","clicked capture");
     }
 }
