@@ -7,6 +7,12 @@ All notable changes to this project will be documented in this file.
   - Micole Ong (MO)
   - Philip Choi (PC)
   - Ryan Cha (RC)
+  
+## [0.3.1]
+### Added
+  - SQLiteDatabase
+  - Dao class
+  - model class
 
 ## [0.3.0]
 ### Added
