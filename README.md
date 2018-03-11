@@ -1,4 +1,4 @@
-### RecycleMe-Android
+# RecycleMe-Android
 
 ## Inspiration
 Some people normally don't return their bottles because they think it is not large amount of money.
