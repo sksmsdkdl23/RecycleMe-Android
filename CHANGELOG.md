@@ -8,8 +8,13 @@ All notable changes to this project will be documented in this file.
   - Philip Choi (PC)
   - Ryan Cha (RC)
 
-## [0.0.1]
+## [0.1.2]
+### 2018-03-11
+#### Added
+  - Finished the beginning page of the app
+  - Integrated Google Map API  
 
+## [0.0.1]
 ### 2018-03-10
 #### Added
   - Project setup
